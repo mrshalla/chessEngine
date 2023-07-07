@@ -1,6 +1,3 @@
 # js-chess-engine
-My version of the Javascript Chess Engine, created from watching videos of different chess engines and algorithms
-
-I have followed the video series provided by Blue Fever on youtube, but I have entered all the code myself.
-I have utilised the Brackets text editor and it's in built support for jslint. This means I have had to make some subtle code changes to what was included in the video series.
-The initial commit was made after completing and testing all the code 
+chess engine developed in javascript and for the browsers we have integrated it with the html/css chess board also where you can play it .
+you canuse your own html css and integrate it with this core chess engine
