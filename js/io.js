@@ -10,14 +10,12 @@ IoController.prSq = function (sq) {
 IoController.prMove = function (move) {
     "use strict";
     var MvStr, ff, rf, ft, rt, promoted, pchar;
-    
     ff = FilesBrd[FROMSQ(move)];
     rf = RanksBrd[FROMSQ(move)];
     ft = FilesBrd[TOSQ(move)];
     rt = RanksBrd[TOSQ(move)];
     
     MvStr = FileChar[ff] + RankChar[rf] + FileChar[ft] + RankChar[rt];
-    
     promoted = PROMOTED(move);
     
     if (promoted !== PIECES.EMPTY) {
